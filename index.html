@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<title>Quote Maker App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body class="container">
+<h1 id="header">Quote Maker App
+    <img src="logo.png">
+</h1>
+<br>
+<textarea id="text_area" placeholder="Type your text"></textarea>
+<br><br>
+<input type="text" id="text_color" placeholder="Type in a Color">
+<button type="button" class="btn btn-info" onclick="color_button()">Change Text Color</button>
+<br><br>
+<input type="text" id="background_color" placeholder="Type in a Background Color">
+<button type="button" class="btn btn-info" onclick="bgColor_button()">Change Background Color</button>
+<br>
+<button type="button" onclick="font_up()" id="font_size_up">+</button>
+<button type="button" onclick="font_down()" id="font_size_down">-</button>
+<br>
+<label>Choose a Font Family: </label>
+<br><br>
+<button type="button" class="btn btn-success" onclick="arial()">Arial</button>
+<button type="button" class="btn btn-primary" onclick="georgia()">Georgia</button>
+<button type="button" class="btn btn-success" onclick="arial_black()">Arial Black</button>
+<button type="button" class="btn btn-primary" onclick="times()">Times</button>
+<button type="button" class="btn btn-success" onclick="courier()">Courier</button>
+<button type="button" class="btn btn-primary" onclick="comic()">Comic</button>
+<button type="button" class="btn btn-success" onclick="impact()">Impact</button>
+<button type="button" class="btn btn-primary" onclick="verdana()">Verdana</button>
+<br><br>
+<script src="main.js"></script>
+</body>
+</html>
